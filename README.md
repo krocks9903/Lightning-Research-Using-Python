@@ -72,6 +72,7 @@ pip install pandas folium matplotlib openpyxl
 
 ## 🏅 Badges
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10307/badge)](https://www.bestpractices.dev/projects/10307)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/krocks9903/Lightning-Research-Using-Python/badge)](https://securityscorecards.dev/viewer/?uri=github.com/krocks9903/Lightning-Research-Using-Python)
 
 ---
 
