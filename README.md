@@ -37,7 +37,7 @@ This project visualizes lightning strike data from Excel files using interactive
 | `hourly diwnload.py`    | Bar chart of hourly lightning frequency.                            |
 | `peak current.py`       | Finds the strongest peak current (Ip) and maps its location.        |
 
-> The April dataset (`april22.xlsx`) mentioned in earlier versions of this README is not included in this repository.
+> `heat.py` and `peak current.py` read `april22.xlsx`, which is not included in this repository. Add that file next to the scripts, or change the filename in the script to `Sep7.xlsx`.
 
 ---
 
