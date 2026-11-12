@@ -32,11 +32,12 @@ This project visualizes lightning strike data from Excel files using interactive
 ## 📁 Project Structure
 | File Name               | Purpose                                                             |
 |-------------------------|---------------------------------------------------------------------|
-| `april22.xlsx`          | Lightning strike dataset for April.                                 |
 | `Sep7.xlsx`             | Lightning strike dataset for September 7th (example file).          |
-| `spatial_plot.py`       | Script to generate a lightning strike heatmap for a given time.     |
-| `hourly_distribution.py`| Script to generate bar charts showing hourly lightning frequency.   |
-| `peak_current_map.py`   | Script to find the strongest peak current (Ip) and visualize its location on a map. |
+| `heat.py`               | Generates a lightning strike heatmap for a given time.              |
+| `hourly diwnload.py`    | Bar chart of hourly lightning frequency.                            |
+| `peak current.py`       | Finds the strongest peak current (Ip) and maps its location.        |
+
+> The April dataset (`april22.xlsx`) mentioned in earlier versions of this README is not included in this repository.
 
 ---
 
@@ -55,9 +56,9 @@ pip install pandas folium matplotlib openpyxl
 ### 3️⃣ Run the Scripts:
 | Script                     | How to run                         |
 |----------------------------|-------------------------------------|
-| 🌎 Spatial Heatmap         | `python spatial_plot.py`            |
-| 📊 Hourly Distribution     | `python hourly_distribution.py`     |
-| 💥 Peak Current Locator    | `python peak_current_map.py`        |
+| 🌎 Spatial Heatmap         | `python heat.py`                    |
+| 📊 Hourly Distribution     | `python "hourly diwnload.py"`       |
+| 💥 Peak Current Locator    | `python "peak current.py"`          |
 
 ⚠️ **Make sure your Excel files are in the same directory as the script or adjust paths accordingly.**
 
